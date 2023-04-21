@@ -174,3 +174,53 @@ select:focus {
 .item {
   margin-bottom: 4px;
 }
+
+.content_parent {
+  background-color: #161C23;
+  width: 80%;
+}
+
+.content_child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  float: right;
+}
+
+.content_span {
+  margin-right: 5px;
+  color: #c78d4e;
+}
+
+.content_child_2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.wallet_span {
+  margin-right: 10px;
+  color: #c78d4e;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.add_coin {
+  padding: 10px 10px;
+  outline: none;
+  display: flex;
+  background-color: #5b6065;
+  color: white;
+
+}
+
+.count_coin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+}

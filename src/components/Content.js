@@ -36,24 +36,14 @@ export default function Content() {
 
 
     return (
-        <div style={{ backgroundColor: "#161C23", width: "80%" }}>
+        <div className="content_parent">
 
             <div
-                style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    padding: "10px",
-                    color: "#fff",
-                    float: "right"
-                }}
+                className="content_child"
             >
 
                 <span
-                    style={{
-                        marginRight: "5px",
-                        color: "#C78D4E"
-                    }}
+                    className="content_span"
                 >
                     Synchronized
                 </span>
@@ -71,25 +61,15 @@ export default function Content() {
 
             <br /> <br />
 
-            <div
-                style={{
-                    display: "flex",
-                    alignItems: "center",
-                    padding: "10px",
-                    color: "#fff",
 
-                }}
+            <div
+                className="content_child_2"
             >
-                <span style={{ marginRight: "10px", color: "#C78D4E", fontWeight: "bolder", fontSize: "larger" }}>Wallet 1</span>
+
+                <span className="wallet_span">Wallet 1</span>
 
                 <button
-                    style={{
-                        padding: "10px 10px",
-                        outline: "none",
-                        display: "flex",
-                        backgroundColor: "#5b6065",
-                        color: "white"
-                    }}
+                    className="add_coin"
                 >
                     <span style={{ marginRight: "5px" }}>+</span>Add Coin
                 </button>
@@ -97,13 +77,7 @@ export default function Content() {
 
 
             <div
-                style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    padding: "10px",
-                    color: "#fff",
-                }}>
+                className="count_coint">
 
                 <div className="sort">
 
